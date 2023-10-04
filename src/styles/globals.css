@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.connect-button {
+  background-color: white !important;
+  border: 2px solid #b8b8ff !important;
+  height: 62px !important;
+  border-radius: 0.75rem !important;
+  color: #9381ff !important;
+  opacity: 1 !important;
+}
+
+/* styles.css or your equivalent CSS file */
+.custom-select-wrapper {
+  position: relative;
+}
+
+.custom-select {
+  appearance: none; /* Removes the default styles in some browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.custom-select-icon {
+  background-color: white;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Makes sure that the icon doesn't block the select */
+}
