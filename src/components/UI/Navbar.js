@@ -24,7 +24,7 @@ const Navbar = () => {
 
       {router.pathname !== "/landing" && (
         <div className="flex-none gap-[40px] mx-[20px]">
-          {
+          {router.pathname !== "/" && (
             <Popover.Root>
               <Popover.Trigger asChild>
                 <div className="flex flex-row gap-[8px] items-center cursor-pointer">
@@ -48,7 +48,7 @@ const Navbar = () => {
                 </Popover.Content>
               </Popover.Portal>
             </Popover.Root>
-          }
+          )}
           <Auth />
         </div>
       )}
