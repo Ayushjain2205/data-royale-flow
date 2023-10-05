@@ -44,7 +44,7 @@ export default function App() {
         <Popover.Root>
           <Popover.Trigger>
             <button className="btn connect-button px-4 py-2 bg-red-500 text-white rounded">
-              {user?.addr ?? "mysterious user"}!
+              {user?.addr ?? "mysterious user"}
             </button>
           </Popover.Trigger>
           <Popover.Content>
