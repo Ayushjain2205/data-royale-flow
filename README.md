@@ -27,12 +27,3 @@ In an era dominated by data and digital innovations, Data Royale stands as a bea
 5. **Collaboration**: Contribute to DataDAOs, use AI snippets, and share in revenue.
 
 6. **Transparent Analytics**: Real-time insights into DataDAO performance and more.
-
-## 🛠️ **Installation & Setup**
-
-```bash
-git clone https://github.com/YourRepoName/DataRoyale.git
-cd DataRoyale
-npm install
-npm start
-```
