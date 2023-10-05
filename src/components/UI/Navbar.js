@@ -5,6 +5,7 @@ import { ethers } from "ethers";
 import MintRC from "../Buttons/MintRC";
 import * as Popover from "@radix-ui/react-popover";
 import { useRouter } from "next/router";
+import Auth from "../Functional/Auth";
 
 const Navbar = () => {
   const address = useAddress();
@@ -63,7 +64,7 @@ const Navbar = () => {
               </Popover.Portal>
             </Popover.Root>
           )}
-          <ConnectWallet theme="light" className="connect-button" />
+          <Auth />
         </div>
       )}
     </div>
